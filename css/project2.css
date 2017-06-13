@@ -1,0 +1,21 @@
+*{
+	background-color: white;
+}
+.form {
+	text-align: justify;
+	padding: 16px;
+	border: 2px solid #7ac9b7;
+	float: left;
+	padding: 8px 8px;
+}
+input[type=text],input[type=email],input[type=tel] {
+    padding: 8px 8px;
+    margin: 8px 0;
+	border-radius:5px;
+	border:1px solid #7ac9b7
+}
+input[type=checkbox] {
+	 padding: 8px 8px;
+     margin: 8px 0;
+     float: center;
+}

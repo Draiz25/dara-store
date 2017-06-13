@@ -1,0 +1,30 @@
+.lfloat_ohe {
+	float: left;
+}
+
+a {
+	color: #365899
+	cursor: pointer;
+	text-decoration: none;
+}
+i {
+	font-style: italic;
+	cursor: auto;
+}
+h1 {
+	display: inline-block;
+	font-size: 2em;
+	-webkit-margin-before:0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;	
+	cursor: auto;
+	color: white;
+}
+.menu_login {
+	float: right;
+}
+
+
+

@@ -1,0 +1,86 @@
+*{
+	background-color: white;
+    list-style-type: none;
+}
+.header{
+    background-color: white;
+    float: left;
+    padding: 14px 30px;
+    font-size:50spx;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px separate ;
+}
+
+/* Change the color of links on hover */
+.menu a:hover {
+    color: red;
+}
+
+/* Add a color to the active/current link */
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
+    }
+.column1 li{ 
+    /*float: left;*/
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.column2 li{ 
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px separate ;
+}
+.footer1 {
+	display: table; 
+	width: 100%; 
+	table-layout: fixed;
+	position: bottom;
+	background-color: black;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+	  column-count:3;
+ }
+
+.left{
+    float: left;
+    text-align:left;
+    color: blue;
+    float:left;
+    background-color: black;
+}
+.right{
+float:right;
+color:blue;
+text-align:right;
+background-color: #000000;
+}
+.centered {
+float: center;
+text-align:center;
+color: blue;
+background-color: #000000;
+
+}
+.column1 li img {
+    border: 1px solid #e0e0e0;
+    padding: 20px 20px;
+    width: 200px;
+    height: 300px;
+}
+					
