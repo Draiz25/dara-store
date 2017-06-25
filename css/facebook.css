@@ -1,3 +1,11 @@
+*{
+	list-style-type: none;
+}
+body{  
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+}
 .main{
 	background-color: #3b5998;
 }
@@ -13,9 +21,10 @@
 }
 .logo{
 }
-.login {
+.button {
+	margin-left: 5px;
 }
-h1 u  {
+h1 em  {
 	color: white;
 }
 ._label {
@@ -27,12 +36,17 @@ h1 u  {
 ._link {
 	margin: 0px 180px;
 }
+._form a {
+	color: white;
+}
 ._main2{
+	width: 100%;
+	height: 586px;
     background: linear-gradient(white, #D3D8E8);
 }			
 }
 ._img {
-	height: 1000px;
+	height: 586px;
 	width: 980px;
 	margin: 0 auto;	
 }
@@ -42,10 +56,10 @@ h1 u  {
 	width: 50%;
 }
 ._sign-up{
-	margin-right:;
+
 }
 a {
-	color: #365899
+	color: #365899;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -56,10 +70,6 @@ i {
 h1 {
 	display: inline-block;
 	font-size: 2em;
-	-webkit-margin-before:0.67em;
-	-webkit-margin-after: 0.67em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
 	font-weight: bold;	
 	cursor: auto;
 	color: white;
@@ -73,36 +83,83 @@ h1 {
 ._sign-up{
 	width: 400PX;
 	height: 385px;
-	margin: 50px 0;
-
-
 }
 
 ._img {
-	height: 1000px;
+	height: 586px;
 	width: 980px;
 	margin: 0 auto;
 }
+._create{
+	font-size: 26px;
+	margin: 0px;
+}
 ._note{
-	color: black;
+	font-size: 19px;
+	margin: 0px;
 }  	
 ._accounts {
   width: 400px;
   height: 385;
 }
 input {
-	border-radius: 5px; 
 	border: 1px solid #bdc7d8;
 	padding: 3px
 }
 ._name{
 	height: 39px;
+
 }
 ._1input,._email{
 	width: 399px;
 	height: 39px;
+	border-radius: 5px;	
 }
 .name{
+	border-radius: 5px;
 	width: 190px;
-	height: 39px;
+	height: 29px;
+	margin-bottom: 20px;
+}
+._58mv, ._58ms{
+	font-size: 11px;
+}
+._58mv{
+	margin:-10px 0px 0px;
+}
+._58mk{
+	margin: 30px 0;
+}
+._footer{
+	margin: 0 auto;
+	width: 980px;
+	color: #737373;
+	font-size: 13px;
+}
+._1footer, ._2footer, ._3footer{
+	margin: 0px auto;
+
+
+}
+ li {
+     margin: 0px 0px 10px 0px;
+	display: inline-block;
+}
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+._2footer {
+	width: 894px;
+	 margin-left: 0px;
+	color: #737373;
+}
+._2footer li {
+	 margin: 0px 0px 10px 10px;
+     
+}
+._3footer{
+	margin: 0 50px;
 }
